@@ -15,7 +15,7 @@
 Sign Language Alphabet Recognizer is focused on recognizing hand gestures of alphabets. This Model is initiative to promote accessibility and communication inclusivity, breaking down barriers for the hearing-impaired. I am enthusiastic about learning and dedicated to continuous development to this model to grow further.
 
 ## Dataset
-[Kaggle] (#https://www.kaggle.com/datasets/ayuraj/american-sign-language-dataset)
+[Kaggle](https://www.kaggle.com/datasets/ayuraj/american-sign-language-dataset)
   
 
 ## Quick Start
