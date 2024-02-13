@@ -44,7 +44,7 @@ python predict.py
 
 
 ## License
-This Market Basket Analysis project is licensed under the MIT [License](#License).
+This Market Basket Analysis project is licensed under the [MIT License](#LICENSE).
 
 ## Acknowledgments
 
