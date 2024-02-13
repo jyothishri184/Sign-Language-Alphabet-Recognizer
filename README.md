@@ -11,7 +11,7 @@
 
 ## About the Repo
 
-Sign Language Alphabet Recognizer is focused on recognizing hand gestures of alphabets. This Model is initiative to promote accessibility and communication inclusivity, breaking down barriers for the hearing-impaired. I am enthusiastic about learning and dedicated to continuous development to this model to grow further.
+Sign Language Alphabet Recognizer is focused on recognizing hand gestures of alphabets. This Model is initiative to promote accessibility and communication inclusivity, breaking down barriers for the hearing-impaired. I am enthusiastic about learning and dedicated to continuous development to this model to grow further. The trained model is deployed using Streamlit, allowing users to interactively test the model with custom images.
 
 ## Dataset
 
@@ -36,7 +36,10 @@ python asl.py
 # Predict
 python predict.py
 
-# Call the function to predict further using any image 
+# Call the function to predict further using any image
+
+# Streamlit app
+streamlit run app.py
 ```
 
 ## About CNN 
