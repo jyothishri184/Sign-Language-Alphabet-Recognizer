@@ -1,5 +1,4 @@
-# Sign Language Translator 🤟
-*Silent gestures find a voice through deep learning, forging connections beyond words.*
+# Sign Language Alphabet Recognizer 🤟
 
 ## Table of Contents
 1. [About the Project](#about-the-project)
@@ -12,15 +11,11 @@
 8. [Conclusion](#conclusion)
 
 ## About the Project
-📍
-**Sign Language Translator** is a mini-project focused on translating hand gestures of alphabets. It was designed and developed for a Deep Learning course as a mini project and for various competitions and hackathons. Our Sign Language Translator project employs deep learning to seamlessly convert sign language gestures into spoken or written language, promoting accessibility and communication inclusivity.
 
-## Features
-- ⚡**Sign Language Translator:** Incorporates deep learning for precise interpretation, providing a seamless bridge between sign language and spoken or written communication.
-  
-- ⚡**Rich Dataset:** Train your models with our extensive collection of hand gestures for alphabets.
-  
-- ⚡**Interactive Analysis:** Explore data insights through comprehensive Jupyter notebook visualizations.
+Sign Language Alphabet Recognizer is focused on recognizing hand gestures of alphabets. This Model is initiative to promote accessibility and communication inclusivity, breaking down barriers for the hearing-impaired. I am enthusiastic about learning and dedicated to continuous development to this model to grow further.
+
+## Dataset
+[Kaggle] (https://www.kaggle.com/datasets/ayuraj/american-sign-language-dataset)
   
 
 ## Quick Start
