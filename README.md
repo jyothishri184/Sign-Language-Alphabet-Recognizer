@@ -57,6 +57,15 @@ CNNs are trained through backpropagation, adjusting weights during training to i
 
 ## Results
 
+![Screenshot (227)](https://github.com/jyothishri184/Market-basket-Analysis/assets/106957211/8ed4bdbd-c7f9-45e0-8168-db4b1a539ba4)
+
+
+Prediction: 
+![Screenshot (241)](https://github.com/jyothishri184/Sign-Language-Alphabet-Recognizer/assets/106957211/90e41933-b461-4396-a425-ab48b04c849f)
+
+![Screenshot (242)](https://github.com/jyothishri184/Sign-Language-Alphabet-Recognizer/assets/106957211/4e876abb-077d-4dc4-a861-1ea1ca3a2718)
+
+
 
 ## License
 This Sign Language Alphabet Recognizer project is licensed under the MIT License.
