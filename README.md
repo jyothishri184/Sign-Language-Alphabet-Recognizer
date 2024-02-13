@@ -44,7 +44,7 @@ python predict.py
 
 
 ## License
-This Market Basket Analysis project is licensed under the [MIT License](#LICENSE).
+This Sign Language Alphabet Recognizer project is licensed under the [MIT License](#LICENSE).
 
 ## Acknowledgments
 
