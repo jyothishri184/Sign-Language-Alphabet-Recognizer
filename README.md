@@ -55,6 +55,8 @@ Key Components:
 Training Process:
 CNNs are trained through backpropagation, adjusting weights during training to improve performance.
 
+## Results
+
 
 ## License
 This Sign Language Alphabet Recognizer project is licensed under the MIT License.
