@@ -4,11 +4,10 @@
 1. [About the Project](#about-the-project)
 2. [Dataset](#Dataset)
 3. [Quick Start](#quick-start)
-4. [Team and Acknowledgments](#team-and-acknowledgments)
-5. [Get Involved!](#get-involved)
-6. [Acknowledgments](#acknowledgments)
-7. [License](#license)
-8. [Conclusion](#conclusion)
+4. [About CNN](#about-cnn)
+5. [Results](#results)
+6. [License](#license)
+7. [Acknowledgments](#acknowledgments)
 
 ## About the Project
 
@@ -40,11 +39,25 @@ python predict.py
 # Call the function to predict further using any image 
 ```
 
+## About CNN 
 
+What are CNNs?
+
+Convolutional Neural Networks are designed for tasks involving images. 🖼️
+
+Key Components:
+
+- Convolutional Layers: Extract features from input images.
+- Pooling Layers: Downsample the extracted features, preserving essential information.
+- Fully Connected Layers: Process flattened feature maps for final predictions.
+- Activation Functions: Utilize functions like ReLU to introduce non-linearity.
+
+Training Process:
+CNNs are trained through backpropagation, adjusting weights during training to improve performance.
 
 
 ## License
-This Sign Language Alphabet Recognizer project is licensed under the [MIT License](#LICENSE).
+This Sign Language Alphabet Recognizer project is licensed under the MIT License.
 
 ## Acknowledgments
 
