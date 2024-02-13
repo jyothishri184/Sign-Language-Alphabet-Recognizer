@@ -56,6 +56,7 @@ Training Process:
 CNNs are trained through backpropagation, adjusting weights during training to improve performance.
 
 ## Results
+<img src="https://github.com/your-username/your-repo/blob/main/assets/image.jpg" alt="Image Alt Text" width="300">
 
 ![Screenshot (227)](https://github.com/jyothishri184/Market-basket-Analysis/assets/106957211/8ed4bdbd-c7f9-45e0-8168-db4b1a539ba4)
 
