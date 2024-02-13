@@ -1,7 +1,7 @@
 # Sign Language Alphabet Recognizer 🤟
 
 ## Table of Contents
-1. [About the Project](#about-the-project)
+1. [About the Repo](#about-the-repo)
 2. [Dataset](#Dataset)
 3. [Quick Start](#quick-start)
 4. [About CNN](#about-cnn)
@@ -9,7 +9,7 @@
 6. [License](#license)
 7. [Acknowledgments](#acknowledgments)
 
-## About the Project
+## About the Repo
 
 Sign Language Alphabet Recognizer is focused on recognizing hand gestures of alphabets. This Model is initiative to promote accessibility and communication inclusivity, breaking down barriers for the hearing-impaired. I am enthusiastic about learning and dedicated to continuous development to this model to grow further.
 
