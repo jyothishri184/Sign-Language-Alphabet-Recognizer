@@ -3,22 +3,22 @@ from PIL import Image
 import cv2
 import numpy as np
 from keras.models import load_model
-import json
-from streamlit_lottie import st_lottie
 
-# Load variables
-from variables import IMAGE_SIZE, MODEL_PATH, LABELS
+
+IMAGE_SIZE = 50 
+MODEL_PATH = "model.h5"
+LABELS = ['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M','N','O', 'P', 'Q','R', 'S', 'T','U', 'V', 'W', 'X', 'Y', 'Z']
+
+# Minimum confidence percentage i.e allowed for prediction
+THRESHOLD = 25
+
 
 # Load pretrained CNN Model from MODEL_PATH
-
-model = load_model(r"C:\Users\jyoth\Downloads\SignLanguageAlphabetRecognizer\model.h5")
+model = load_model(r"C:\Users\jyoth\Downloads\Projects\SignLanguageAlphabetRecognizer\model.h5")
 
 
 
 def pre_process(img_array):
-    """
-    Preprocess the image array for prediction.
-    """
     img_array = cv2.cvtColor(img_array, cv2.COLOR_BGR2GRAY)
     img_array = cv2.resize(img_array, (IMAGE_SIZE, IMAGE_SIZE))
     img_array = img_array.reshape(IMAGE_SIZE, IMAGE_SIZE, 1)
@@ -27,26 +27,17 @@ def pre_process(img_array):
     return img_array
 
 def predict_image(img_array):
-    """
-    Predict the sign language alphabet from the image array.
-    """
     img_array = pre_process(img_array)
-    preds = model.predict(img_array)
-    preds *= 100
-    most_likely_class_index = int(np.argmax(preds))
+    preds = model.predict(img_array) #return ans image array with confidence for each class ---> array([[0.01, 0.95, 0.04]]) if class A,B,C --> then class B
+    preds *= 100 #for representing confidence as percentage
+    most_likely_class_index = int(np.argmax(preds)) #return the index of maximum value in an array
     return preds.max(), LABELS[most_likely_class_index]
 
-
-def load_lottiefile(filepath: str):
-    with open(filepath, "r") as f:
-        return json.load(f)
-    
     
 def main():
     st.title("Sign Language Alphabet Recognizer")
 
-
-    image = Image.open(r"C:\Users\jyoth\Downloads\SignLanguageAlphabetRecognizer\holdhand.jpg")
+    image = Image.open(r"C:\Users\jyoth\Downloads\Projects\SignLanguageAlphabetRecognizer\holdhand.jpg")
     st.image(image, use_column_width=True)
 
     
@@ -54,7 +45,7 @@ def main():
 
     if uploaded_image is not None:
         image = Image.open(uploaded_image)
-        st.image(image, caption="Uploaded Image.", use_column_width=True)
+        st.image(image, caption="Uploaded Image", use_column_width=True)
 
         image_array = np.array(image)
         confidence, predicted_letter = predict_image(image_array)
