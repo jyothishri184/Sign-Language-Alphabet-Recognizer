@@ -33,11 +33,6 @@ pip install -r requirements.txt
 # Train model
 python asl.py
 
-# Predict
-python predict.py
-
-# Call the function to predict further using any image
-
 # Streamlit app
 streamlit run app.py
 ```
