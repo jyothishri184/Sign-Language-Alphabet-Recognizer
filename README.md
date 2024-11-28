@@ -25,7 +25,7 @@ Get the Dataset here - [Kaggle](https://www.kaggle.com/datasets/ayuraj/american-
 git clone https://github.com/jyothishri184/Sign-Language-Alphabet-Recognizer.git
 
 # Navigate to the project directory
-cd Sign-Language-Translator
+cd Sign-Language-Alphabet-Recognizer
 
 # Install dependencies
 pip install -r requirements.txt
